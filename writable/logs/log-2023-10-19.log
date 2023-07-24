@@ -1,0 +1,835 @@
+CRITICAL - 2023-10-19 11:28:22 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:28:41 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:29:20 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:29:24 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:29:41 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:33:50 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:39:05 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:43:01 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 139.
+ 1 SYSTEMPATH/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Database\\MySQLi\\Connection', [...])
+ 2 SYSTEMPATH/Database/Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH/Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 SYSTEMPATH/Config/Factories.php(129): CodeIgniter\Model->__construct(null)
+ 5 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 6 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models('App\\Models\\User_model', [...], null)
+ 7 APPPATH/Controllers/Login.php(29): model('App\\Models\\User_model')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 11:59:40 --> password_verify(): Argument #2 ($hash) must be of type string, array given
+in APPPATH/Controllers/Login.php on line 64.
+ 1 APPPATH/Controllers/Login.php(64): password_verify('d96d329e64cfb4bc7db4a5c61eadc1a713b954a3fd8b0395d03ed18fe34f8192', [])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 13:48:35 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mailhub.eait.uq.edu.au:25 (Operation timed out) in /var/www/system/Email/Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/var/www/system...', 1868)
+#1 /var/www/system/Email/Email.php(1868): fsockopen('mailhub.eait.uq...', 25, NULL, NULL, 5)
+#2 /var/www/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/app/Controllers/EmailController.php(49): CodeIgniter\Email\Email->send()
+#6 /var/www/app/Controllers/ForgotPassword.php(109): App\Controllers\EmailController->verify_email(Array)
+#7 /var/www/system/CodeIgniter.php(934): App\Controllers\ForgotPassword->send_token()
+#8 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#9 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-10-19 13:48:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-19 13:48:35 --> 
+ERROR - 2023-10-19 15:13:41 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mailhub.eait.uq.edu.au:25 (Operation timed out) in /var/www/system/Email/Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', '/var/www/system...', 1868)
+#1 /var/www/system/Email/Email.php(1868): fsockopen('mailhub.eait.uq...', 25, NULL, NULL, 5)
+#2 /var/www/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/app/Controllers/EmailController.php(49): CodeIgniter\Email\Email->send()
+#6 /var/www/app/Controllers/ForgotPassword.php(109): App\Controllers\EmailController->verify_email(Array)
+#7 /var/www/system/CodeIgniter.php(934): App\Controllers\ForgotPassword->send_token()
+#8 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#9 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-10-19 15:13:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-19 15:13:41 --> 
+ERROR - 2023-10-19 15:37:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-19 15:37:50 --> 220 in.mailjet.com ESMTP Mailjet
+
+hello: 250-smtpin.mailjet.com
+250-PIPELINING
+250-SIZE 15728640
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN DIGEST-MD5 CRAM-MD5
+250-AUTH=PLAIN LOGIN DIGEST-MD5 CRAM-MD5
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SMTPUTF8
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 554 5.7.1 <peter3658@outlook.com>: Relay access denied
+
+The following SMTP error was encountered: 554 5.7.1 <peter3658@outlook.com>: Relay access denied
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2023-10-19 15:38:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-19 15:38:05 --> 220 in.mailjet.com ESMTP Mailjet
+
+hello: 250-smtpin.mailjet.com
+250-PIPELINING
+250-SIZE 15728640
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN DIGEST-MD5 CRAM-MD5
+250-AUTH=PLAIN LOGIN DIGEST-MD5 CRAM-MD5
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SMTPUTF8
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 554 5.7.1 <peter3658@outlook.com>: Relay access denied
+
+The following SMTP error was encountered: 554 5.7.1 <peter3658@outlook.com>: Relay access denied
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2023-10-19 15:42:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-19 15:42:50 --> 220 in.mailjet.com ESMTP Mailjet
+
+hello: 250-smtpin.mailjet.com
+250-PIPELINING
+250-SIZE 15728640
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN DIGEST-MD5 CRAM-MD5
+250-AUTH=PLAIN LOGIN DIGEST-MD5 CRAM-MD5
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-SMTPUTF8
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 554 5.7.1 <peter2002tran@outlook.com>: Relay access denied
+
+The following SMTP error was encountered: 554 5.7.1 <peter2002tran@outlook.com>: Relay access denied
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2023-10-19 18:35:10 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/var/www/system...', 174)
+#1 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#2 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#5 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#7 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#8 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#9 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 18:35:10 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlook.com')
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beginners')
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 18:36:59 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/var/www/system...', 174)
+#1 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#2 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#5 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#7 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#8 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#9 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 18:36:59 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlook.com')
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beginners')
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 18:37:00 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', '/var/www/system...', 174)
+#1 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#2 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#5 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#7 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#8 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#9 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 18:37:00 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for mysql failed: Name does not resolve
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlook.com')
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beginners')
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:02:11 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('35.244.99.57', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 /var/www/app/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlo...')
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beg...')
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:02:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/User_model.php(130): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(140): App\Models\User_model->user_query('id', 'email', 'peter3658@outlook.com')
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->display_course('6', 'Pilates for Beginners')
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:02:27 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('35.244.99.57', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/UserProfile.php(14): App\Models\User_model->user_details('peter3658@outlo...')
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserProfile))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(104): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/UserProfile.php(14): App\Models\User_model->user_details('peter3658@outlo...')
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserProfile))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:02:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH/Models/User_model.php(104): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/UserProfile.php(14): App\Models\User_model->user_details('peter3658@outlook.com')
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserProfile))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:02:37 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('35.244.99.57', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:02:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:06:04 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('35.244.99.57', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:06:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:39:28 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:39:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:39:55 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:39:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:53:52 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:53:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:54:29 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:54:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:54:43 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:54:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:55:20 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:55:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:55:44 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:55:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 19:58:35 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /var/www/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('mysql', 'root', 'password', 'demo', 3306, '', 0)
+#1 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#6 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#7 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#8 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /var/www/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/app/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/Course.php(20): App\Models\User_model->course_list()
+#5 /var/www/system/CodeIgniter.php(934): App\Controllers\Course->index()
+#6 /var/www/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 /var/www/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-19 19:58:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`', [], false)
+ 3 APPPATH/Models/User_model.php(153): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Course.php(20): App\Models\User_model->course_list()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Course->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

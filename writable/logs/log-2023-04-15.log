@@ -1,0 +1,22 @@
+ERROR - 2023-04-15 03:48:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-15 03:48:05 --> Invalid email address: "secret@admirer"
+Invalid email address: "secret@admirer"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sat, 15 Apr 2023 13:48:05 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.1.8 <secret@admirer>... Domain of sender address secret@admirer does not exist
+
+The following SMTP error was encountered: 553 5.1.8 <secret@admirer>... Domain of sender address secret@admirer does not exist
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+

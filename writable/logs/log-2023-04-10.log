@@ -1,0 +1,654 @@
+CRITICAL - 2023-04-10 10:29:41 --> Undefined property: App\Controllers\Register::$input
+in APPPATH/Controllers/Register.php on line 24.
+ 1 APPPATH/Controllers/Register.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 10:32:29 --> Array to string conversion
+in APPPATH/Controllers/Register.php on line 33.
+ 1 APPPATH/Controllers/Register.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-10 10:48:30 --> mysqli_sql_exception: Unknown column 'fName' in 'field list' in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(40): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-10 10:48:30 --> Unknown column 'fName' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(40): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-10 10:50:34 --> mysqli_sql_exception: Unknown column 'passwordConfirm' in 'field list' in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(39): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-10 10:50:34 --> Unknown column 'passwordConfirm' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(39): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-10 10:50:57 --> mysqli_sql_exception: Column 'firstName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(39): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-10 10:50:57 --> Column 'firstName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(39): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:51:04 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:51:53 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:51:58 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:52:34 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:52:35 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:52:35 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:55:17 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:56:52 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-10 11:56:53 --> Call to undefined method App\Controllers\Email::initialize()
+in APPPATH/Controllers/Email.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-10 11:57:49 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(47): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 11:57:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 11:57:49 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 21:57:49 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 11:57:51 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(47): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 11:57:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 11:57:51 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 21:57:51 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 11:57:59 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(47): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 11:57:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 11:57:59 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 21:57:59 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:01:30 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:01:30 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:01:30 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:01:29 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:01:31 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:01:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:01:31 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:01:31 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:01:39 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:01:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:01:39 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:01:39 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:02:56 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:02:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:02:56 --> 
+hello: 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:02:56 +1000 (AEST)
+
+The following SMTP error was encountered: 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:02:56 +1000 (AEST)
+
+starttls: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+The following SMTP error was encountered: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+ERROR - 2023-04-10 12:06:52 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:06:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:06:52 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:06:52 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:06:53 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:06:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:06:53 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:06:53 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:06:54 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:06:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:06:54 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:06:54 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:08:47 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:08:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:08:47 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:08:47 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:08:48 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Email.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Email->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:08:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:08:48 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:08:48 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:10:33 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/EmailController.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\EmailController->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:10:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:10:33 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:10:33 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:10:34 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:141A318A:SSL routines:tls_process_ske_dhe:dh key too small in /var/www/htdocs/fitlearn/system/Email/Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/htdocs/fitlearn/system/Email/Email.php(1883): stream_socket_enable_crypto()
+#2 /var/www/htdocs/fitlearn/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/htdocs/fitlearn/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/htdocs/fitlearn/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/htdocs/fitlearn/app/Controllers/EmailController.php(48): CodeIgniter\Email\Email->send()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\EmailController->verify_email()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-10 12:10:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:10:34 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:10:34 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2023-04-10 12:12:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:12:33 --> Invalid email address: "infs3202-908127e8.uqcloud.net"
+Invalid email address: "infs3202-908127e8.uqcloud.net"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:12:33 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+The following SMTP error was encountered: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+ERROR - 2023-04-10 12:12:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:12:34 --> Invalid email address: "infs3202-908127e8.uqcloud.net"
+Invalid email address: "infs3202-908127e8.uqcloud.net"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:12:34 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+The following SMTP error was encountered: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+ERROR - 2023-04-10 12:12:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:12:39 --> Invalid email address: "infs3202-908127e8.uqcloud.net"
+Invalid email address: "infs3202-908127e8.uqcloud.net"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:12:39 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+The following SMTP error was encountered: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+ERROR - 2023-04-10 12:12:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-10 12:12:41 --> Invalid email address: "infs3202-908127e8.uqcloud.net"
+Invalid email address: "infs3202-908127e8.uqcloud.net"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Mon, 10 Apr 2023 22:12:41 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+The following SMTP error was encountered: 553 5.5.4 <infs3202-908127e8.uqcloud.net>... Domain name required for sender address infs3202-908127e8.uqcloud.net
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+

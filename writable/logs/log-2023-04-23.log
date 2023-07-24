@@ -1,0 +1,1492 @@
+ERROR - 2023-04-23 03:37:05 --> mysqli_sql_exception: Operand should contain 1 column(s) in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/fitlearn/app/Controllers/AuthController.php(68): App\Models\User_model->google_check_exist()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 03:37:05 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/AuthController.php(68): App\Models\User_model->google_check_exist()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 03:37:59 --> mysqli_sql_exception: Operand should contain 1 column(s) in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/htdocs/fitlearn/app/Controllers/AuthController.php(68): App\Models\User_model->google_check_exist()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 03:37:59 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/AuthController.php(68): App\Models\User_model->google_check_exist()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 03:54:21 --> Unmatched '}'
+in APPPATH/Views/register.php on line 16.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Register.php(18): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 03:56:26 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set()
+ 3 SYSTEMPATH/Config/Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+ 9 APPPATH/Views/header.php(51): session()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/header.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/AuthController.php(74): view()
+14 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+15 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 03:57:05 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set()
+ 3 SYSTEMPATH/Config/Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+ 9 APPPATH/Views/header.php(51): session()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/header.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/AuthController.php(74): view()
+14 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+15 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 03:57:44 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set()
+ 3 SYSTEMPATH/Config/Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Common.php(988): CodeIgniter\Config\BaseService::__callStatic()
+ 9 APPPATH/Views/header.php(51): session()
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/header.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/AuthController.php(74): view()
+14 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+15 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:19:21 --> syntax error, unexpected double-quote mark, expecting "-" or identifier or variable or number
+in APPPATH/Controllers/AuthController.php on line 59.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:19:42 --> Unsupported operand types: string / string
+in APPPATH/Controllers/AuthController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:19:50 --> Unsupported operand types: string / string
+in APPPATH/Controllers/AuthController.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\AuthController->getAJAXResult()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:38:04 --> Undefined variable $error
+in APPPATH/Views/register.php on line 40.
+ 1 APPPATH/Views/register.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->google_account()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 04:41:18 --> mysqli_sql_exception: Column 'lastName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(41): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 04:41:18 --> Column 'lastName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(41): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 04:42:27 --> mysqli_sql_exception: Column 'lastName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(41): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 04:42:27 --> Column 'lastName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(41): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:47:25 --> Unmatched '}'
+in APPPATH/Controllers/AuthController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:47:30 --> Unmatched '}'
+in APPPATH/Controllers/AuthController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 04:47:39 --> Unmatched '}'
+in APPPATH/Controllers/AuthController.php on line 87.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:04:07 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH/Controllers/Register.php on line 48.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:25:53 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Models/User_model.php on line 58.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+ 7 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+ 8 APPPATH/Controllers/Register.php(26): model()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:27:32 --> Undefined array key "otp"
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(27): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:35:24 --> Undefined variable $email
+in APPPATH/Views/verify_email.php on line 5.
+ 1 APPPATH/Views/verify_email.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/verify_email.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:40:57 --> Undefined array key 0
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(35): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:41:05 --> Undefined array key 0
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(35): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:41:10 --> Undefined array key 0
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(35): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:41:12 --> Undefined array key 0
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(35): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:31:22 --> Undefined array key 0
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(37): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:31:54 --> Undefined array key 0
+in APPPATH/Models/User_model.php on line 57.
+ 1 APPPATH/Models/User_model.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(37): App\Models\User_model->get_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:32:17 --> syntax error, unexpected variable "$query"
+in APPPATH/Models/User_model.php on line 58.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+ 7 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+ 8 APPPATH/Controllers/Register.php(36): model()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:36:38 --> Call to undefined function App\Controllers\parseInt()
+in APPPATH/Controllers/Register.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:51:43 --> Undefined variable $data
+in APPPATH/Controllers/Register.php on line 37.
+ 1 APPPATH/Controllers/Register.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:51:52 --> Undefined variable $data
+in APPPATH/Controllers/Register.php on line 37.
+ 1 APPPATH/Controllers/Register.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:57:41 --> Undefined variable $opt
+in APPPATH/Controllers/Register.php on line 36.
+ 1 APPPATH/Controllers/Register.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:57:59 --> Undefined variable $data
+in APPPATH/Controllers/Register.php on line 42.
+ 1 APPPATH/Controllers/Register.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:58:23 --> Undefined constant "App\Controllers\this"
+in APPPATH/Controllers/Register.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:10:30 --> Undefined variable $email
+in APPPATH/Views/verify_email.php on line 5.
+ 1 APPPATH/Views/verify_email.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/verify_email.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(48): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:10:57 --> Undefined variable $error
+in APPPATH/Views/verify_email.php on line 11.
+ 1 APPPATH/Views/verify_email.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/verify_email.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Register.php(49): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->check_otp()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:21:21 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH/Controllers/EmailController.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Register.php(7): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Register.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 6 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 8 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 9 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:22:08 --> syntax error, unexpected token "public"
+in APPPATH/Controllers/Register.php on line 90.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:22:18 --> syntax error, unexpected variable "$sender"
+in APPPATH/Controllers/EmailController.php on line 26.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Register.php(7): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Register.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 6 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 8 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 9 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:22:39 --> syntax error, unexpected variable "$sender"
+in APPPATH/Controllers/EmailController.php on line 26.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Register.php(7): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Register.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 6 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 8 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 9 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:22:45 --> syntax error, unexpected variable "$sender"
+in APPPATH/Controllers/EmailController.php on line 26.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Register.php(7): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once('APPPATH/Controllers/Register.php')
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 6 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 8 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 9 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:24:14 --> Call to undefined function App\Controllers\verify_email()
+in APPPATH/Controllers/Register.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:24:25 --> Call to undefined function App\Controllers\verify_email()
+in APPPATH/Controllers/Register.php on line 84.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:26:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:26:55 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:26:55 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+The following SMTP error was encountered: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-04-23 07:30:45 --> Undefined array key "otp"
+in APPPATH/Controllers/Register.php on line 29.
+ 1 APPPATH/Controllers/Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:31:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:31:01 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:31:01 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+The following SMTP error was encountered: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-04-23 07:32:00 --> Too few arguments to function App\Controllers\EmailController::verify_email(), 0 passed in /var/www/htdocs/fitlearn/system/CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH/Controllers/EmailController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\EmailController->verify_email()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:32:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:32:31 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:32:31 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+The following SMTP error was encountered: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+ERROR - 2023-04-23 07:32:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:32:32 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:32:32 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+The following SMTP error was encountered: 553 5.1.8 <fit2@learn.com>... Domain of sender address fit2@learn.com does not exist
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+ERROR - 2023-04-23 07:32:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:32:57 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:32:57 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 553 5.1.8 <p.tran2@uq.edu.aus>... Domain of sender address p.tran2@uq.edu.aus does not exist
+
+The following SMTP error was encountered: 553 5.1.8 <p.tran2@uq.edu.aus>... Domain of sender address p.tran2@uq.edu.aus does not exist
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-04-23 07:35:51 --> Undefined array key "message \n, Alternatively, click this link to enter"
+in APPPATH/Controllers/EmailController.php on line 34.
+ 1 APPPATH/Controllers/EmailController.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(34): App\Controllers\EmailController->verify_email()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:35:58 --> Undefined array key "message \n, Alternatively, click this link to enter"
+in APPPATH/Controllers/EmailController.php on line 34.
+ 1 APPPATH/Controllers/EmailController.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Register.php(34): App\Controllers\EmailController->verify_email()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:36:20 --> Unclosed '{' on line 30 does not match ']'
+in APPPATH/Controllers/EmailController.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Register.php(33): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify_email()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:37:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:37:08 --> 220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:37:03 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <donotreply@fitlearn.com>... Sender ok
+
+to: 250 2.1.5 <peter2002tran@outlook.com>... Recipient ok
+
+data: 354 Enter mail, end with "." on a line by itself
+
+
+quit: 250 2.0.0 33N7b3dH015651 Message accepted for delivery
+
+The following SMTP error was encountered: 250 2.0.0 33N7b3dH015651 Message accepted for delivery
+
+The following SMTP error was encountered: 
+CRITICAL - 2023-04-23 07:51:17 --> Unclosed '{' on line 116
+in APPPATH/Controllers/Register.php on line 155.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:52:14 --> mysqli_sql_exception: Column 'firstName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(90): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 07:52:14 --> Column 'firstName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(90): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:52:57 --> mysqli_sql_exception: Column 'firstName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(89): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 07:52:57 --> Column 'firstName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(89): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:53:26 --> mysqli_sql_exception: Column 'firstName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(89): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 07:53:26 --> Column 'firstName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(89): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:54:50 --> mysqli_sql_exception: Column 'firstName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(89): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 07:54:50 --> Column 'firstName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(89): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:55:02 --> mysqli_sql_exception: Column 'firstName' cannot be null in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(89): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 07:55:02 --> Column 'firstName' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(89): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 07:55:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 07:55:38 --> Invalid email address: "sada"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 17:55:38 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <donotreply@fitlearn.com>... Sender ok
+
+to: 550 5.1.1 <sada>... User unknown
+
+The following SMTP error was encountered: 550 5.1.1 <sada>... User unknown
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+ERROR - 2023-04-23 08:03:18 --> mysqli_sql_exception: Unknown column 'verified' in 'field list' in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/htdocs/fitlearn/app/Controllers/Register.php(90): App\Models\User_model->register()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\Register->new_user()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 08:03:18 --> Unknown column 'verified' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(28): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Register.php(90): App\Models\User_model->register()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->new_user()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 08:13:21 --> Undefined variable $email
+in APPPATH/Controllers/Login.php on line 38.
+ 1 APPPATH/Controllers/Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 08:14:36 --> syntax error, unexpected variable "$query", expecting "function" or "const"
+in APPPATH/Models/User_model.php on line 74.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/Config/Factories.php(155): class_exists()
+ 5 SYSTEMPATH/Config/Factories.php(125): CodeIgniter\Config\Factories::locateClass()
+ 6 SYSTEMPATH/Config/Factories.php(86): CodeIgniter\Config\Factories::__callStatic()
+ 7 SYSTEMPATH/Common.php(829): CodeIgniter\Config\Factories::models()
+ 8 APPPATH/Controllers/Login.php(35): model()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 08:15:25 --> Undefined array key "email"
+in APPPATH/Models/User_model.php on line 85.
+ 1 APPPATH/Models/User_model.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(38): App\Models\User_model->user_query()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 08:17:41 --> syntax error, unexpected identifier "footer", expecting ")"
+in APPPATH/Controllers/Login.php on line 50.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 08:17:50 --> Invalid file: "verify/peter.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Login.php(49): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 08:18:12 --> Invalid file: "verify/peter2002tran@outlook.com"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Login.php(49): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 08:28:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-04-23 08:28:14 --> Invalid email address: "peter"
+220 mailhub.eait.uq.edu.au ESMTP Sendmail 8.15.1/8.15.1; Sun, 23 Apr 2023 18:28:14 +1000 (AEST)
+
+hello: 250-mailhub.eait.uq.edu.au Hello infs3202-908127e8.zones.eait.uq.edu.au [172.23.81.177], pleased to meet you
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-8BITMIME
+250-SIZE 67108864
+250-DSN
+250-ETRN
+250-STARTTLS
+250-DELIVERBY
+250 HELP
+
+from: 250 2.1.0 <donotreply@fitlearn.com>... Sender ok
+
+to: 550 5.1.1 <peter>... User unknown
+
+The following SMTP error was encountered: 550 5.1.1 <peter>... User unknown
+
+quit: 221 2.0.0 mailhub.eait.uq.edu.au closing connection
+
+CRITICAL - 2023-04-23 10:39:53 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 10:40:08 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 10:42:22 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 10:49:56 --> Undefined variable $session
+in APPPATH/Controllers/UserProfile.php on line 10.
+ 1 APPPATH/Controllers/UserProfile.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 10:54:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRows()
+in APPPATH/Models/User_model.php on line 78.
+ 1 APPPATH/Controllers/UserProfile.php(14): App\Models\User_model->user_details()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 10:54:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowArrays()
+in APPPATH/Models/User_model.php on line 78.
+ 1 APPPATH/Controllers/UserProfile.php(14): App\Models\User_model->user_details()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 11:04:26 --> Array to string conversion
+in APPPATH/Controllers/UserProfile.php on line 25.
+ 1 APPPATH/Controllers/UserProfile.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 11:43:04 --> Undefined variable $firstName
+in APPPATH/Views/user_profile.php on line 65.
+ 1 APPPATH/Views/user_profile.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user_profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/UserProfile.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 12:09:51 --> Undefined variable $response
+in APPPATH/Controllers/UserProfile.php on line 40.
+ 1 APPPATH/Controllers/UserProfile.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 12:17:20 --> Undefined variable $email
+in APPPATH/Models/User_model.php on line 89.
+ 1 APPPATH/Models/User_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserProfile.php(47): App\Models\User_model->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 12:18:13 --> Undefined variable $email
+in APPPATH/Models/User_model.php on line 89.
+ 1 APPPATH/Models/User_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserProfile.php(48): App\Models\User_model->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 12:18:20 --> Undefined variable $email
+in APPPATH/Models/User_model.php on line 89.
+ 1 APPPATH/Models/User_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/UserProfile.php(48): App\Models\User_model->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-23 12:18:37 --> mysqli_sql_exception: Unknown column 'phone' in 'field list' in /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/htdocs/fitlearn/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/htdocs/fitlearn/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/htdocs/fitlearn/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/htdocs/fitlearn/app/Models/User_model.php(93): CodeIgniter\Database\BaseBuilder->update()
+#5 /var/www/htdocs/fitlearn/app/Controllers/UserProfile.php(48): App\Models\User_model->user_update()
+#6 /var/www/htdocs/fitlearn/system/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+#7 /var/www/htdocs/fitlearn/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/htdocs/fitlearn/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/htdocs/fitlearn/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-23 12:18:37 --> Unknown column 'phone' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/User_model.php(93): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/UserProfile.php(48): App\Models\User_model->user_update()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->update()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:44:24 --> Undefined variable $file
+in APPPATH/Controllers/Upload.php on line 41.
+ 1 APPPATH/Controllers/Upload.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:46:22 --> The uploaded file has already been moved.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 133.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH/Controllers/Upload.php(41): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:48:31 --> SplFileInfo::getSize(): stat failed for /var/www/htdocs/fitlearn/public/profilePics20230423/1682261311_07410ee3ccd4ef641576.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(42): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:48:43 --> SplFileInfo::getSize(): stat failed for /var/www/htdocs/fitlearn/public/profilePics/20230423/1682261323_04ddb5fd09fdbf713211.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(42): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:49:19 --> finfo_file(/var/www/htdocs/fitlearn/public/profilePics/20230423/1682261359_b3e8126ff68088b838b6.jpg): Failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Files/File.php(115): finfo_file()
+ 3 SYSTEMPATH/Files/File.php(98): CodeIgniter\Files\File->getMimeType()
+ 4 APPPATH/Views/upload_success.php(6): CodeIgniter\Files\File->guessExtension()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Upload.php(42): view()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:49:46 --> SplFileInfo::getSize(): stat failed for public/profilePics/20230423/1682261386_ce9969f2ec768deac926.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(42): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:49:51 --> SplFileInfo::getSize(): stat failed for /public/profilePics/20230423/1682261391_885caf0792ea4c448fa4.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(42): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:49:58 --> SplFileInfo::getSize(): stat failed for public/profilePics/20230423/1682261398_379cea1ddfac13e6832e.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(42): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:50:19 --> SplFileInfo::getSize(): stat failed for public/20230423/1682261419_75f7eed4de6f685a57af.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(42): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:51:12 --> Undefined variable $filepath
+in APPPATH/Controllers/Upload.php on line 41.
+ 1 APPPATH/Controllers/Upload.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:51:39 --> SplFileInfo::getSize(): stat failed for 1
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:54:08 --> SplFileInfo::getSize(): stat failed for 1
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:54:09 --> SplFileInfo::getSize(): stat failed for 1
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(44): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:54:35 --> SplFileInfo::getSize(): stat failed for /var/www/htdocs/fitlearn/public/uploads/20230423/1682261675_2de1c010e398a8984a2f.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(40): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:54:37 --> SplFileInfo::getSize(): stat failed for /var/www/htdocs/fitlearn/public/uploads/20230423/1682261677_c0088d8c716db4b6b158.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(40): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 14:54:44 --> SplFileInfo::getSize(): stat failed for /var/www/htdocs/fitlearn/public/uploads/20230423/1682261684_4a521d98af16d50c00c5.jpg
+in SYSTEMPATH/Files/File.php on line 65.
+ 1 SYSTEMPATH/Files/File.php(65): SplFileInfo->getSize()
+ 2 SYSTEMPATH/Files/File.php(77): CodeIgniter\Files\File->getSize()
+ 3 APPPATH/Views/upload_success.php(5): CodeIgniter\Files\File->getSizeByUnit()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Upload.php(40): view()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:01:21 --> Call to undefined method CodeIgniter\Files\File::getName()
+in APPPATH/Views/upload_success.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(40): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:01:53 --> Call to undefined method CodeIgniter\Files\File::getClientName()
+in APPPATH/Views/upload_success.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(40): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:01:54 --> Call to undefined method CodeIgniter\Files\File::getClientName()
+in APPPATH/Views/upload_success.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(40): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:05:04 --> syntax error, unexpected variable "$fileName", expecting "function" or "const"
+in APPPATH/Controllers/Upload.php on line 43.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:05:32 --> syntax error, unexpected token "="
+in APPPATH/Controllers/Upload.php on line 44.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:07:00 --> Undefined variable $data
+in APPPATH/Controllers/Upload.php on line 41.
+ 1 APPPATH/Controllers/Upload.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:07:50 --> Undefined variable $uploaded_fileinfo
+in APPPATH/Views/upload_success.php on line 4.
+ 1 APPPATH/Views/upload_success.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:08:06 --> Call to a member function getBasename() on null
+in APPPATH/Views/upload_success.php on line 4.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(42): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:08:07 --> Call to a member function getBasename() on null
+in APPPATH/Views/upload_success.php on line 4.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(42): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:08:07 --> Call to a member function getBasename() on null
+in APPPATH/Views/upload_success.php on line 4.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(42): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:08:13 --> Call to a member function getBasename() on null
+in APPPATH/Views/upload_success.php on line 4.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Upload.php(42): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:08:47 --> syntax error, unexpected token "echo"
+in APPPATH/Controllers/Upload.php on line 40.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:10:01 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/Upload.php on line 43.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:13:50 --> Undefined variable $data
+in APPPATH/Controllers/Upload.php on line 39.
+ 1 APPPATH/Controllers/Upload.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:13:59 --> Undefined variable $uploaded_fileinfo
+in APPPATH/Views/upload_success.php on line 8.
+ 1 APPPATH/Views/upload_success.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/upload_success.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Upload.php(41): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:23:19 --> syntax error, unexpected token "="
+in APPPATH/Views/user_profile.php on line 46.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UserProfile.php(25): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UserProfile->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:50:53 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(30): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:54:00 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(61): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:54:47 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(61): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:55:27 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(61): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:56:42 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(61): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:56:52 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(61): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:58:05 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(61): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:58:23 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:58:29 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:59:10 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 15:59:11 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:00:10 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:00:11 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:00:14 --> Invalid file: "upload_form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Upload.php(60): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:01:09 --> Call to a member function getRandomName() on null
+in APPPATH/Controllers/Upload.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:01:22 --> Could not move file "phpF4BuUD" to "/var/www/htdocs/fitlearn/public/uploads/profile_pics/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Upload.php(67): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:02:13 --> Could not move file "phpvJ41LF" to "/var/www/htdocs/fitlearn/public/uploads/profile_pics/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Upload.php(67): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:02:22 --> Could not move file "phpkZgVoG" to "/var/www/htdocs/fitlearn/public/uploads/profile_pics/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Upload.php(67): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:06:32 --> Undefined variable $email
+in APPPATH/Controllers/Upload.php on line 75.
+ 1 APPPATH/Controllers/Upload.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:06:50 --> Undefined array key "email"
+in APPPATH/Models/User_model.php on line 89.
+ 1 APPPATH/Models/User_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Upload.php(75): App\Models\User_model->user_update()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Upload->profile_pic()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
