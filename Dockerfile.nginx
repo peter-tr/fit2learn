@@ -1,0 +1,20 @@
+FROM nginx:alpine
+
+# Set the working directory in docker
+WORKDIR /var/www
+
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+
+# Copy content of the local src directory to the working directory
+COPY . /var/www
+
+# After the COPY command
+RUN chmod -R 755 /var/www/writable
+
+
+# Expose port 80
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
+

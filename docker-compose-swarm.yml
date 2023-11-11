@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: 127.0.0.1:5000/nginx
+    build:
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "8081:80"
+    depends_on:
+      - php
+      - mysql
+
+  php:
+    image: 127.0.0.1:5000/php
+    build:
+      dockerfile: Dockerfile.php
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: demo
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: user
+      PMA_PASSWORD: password
+    ports:
+      - "8082:80"
+    depends_on:
+      - mysql
+
+networks:
+  app-network:
+    external:
+      name: app-network
+
+volumes:
+  mysql_data:
+
