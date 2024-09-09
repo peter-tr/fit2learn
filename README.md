@@ -41,6 +41,11 @@ Fit2Learn is built using the Model-View-Controller (MVC) architecture, which all
 
 Fit2Learn follows standard website design patterns for intuitiveness and ease of use. Conventional icons, such as the ‘hamburger’ icon for expanding menus and the ‘magnifying glass’ for search, are used throughout the site. All core pages and functionality are accessible from the top navigation bar, with additional options available via dropdown menus.
 
+## Site Map
+
+<img src="fitlearn_sitemap.png" alt="Homepage Screenshot" width="600">
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
